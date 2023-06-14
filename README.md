@@ -4,8 +4,8 @@ Advanced Phone for QB-Core Framework :iphone:
 #qb-iPhone-TR
 Türkçeleştirilmiş qb-phone. Ekstra olarak iPhone görüntüsü verildi.\n
 Turkish localized qb-phone. In addition frame changed to iPhone.
-![screenshot](https://cdn.discordapp.com/attachments/1071872069115072604/1117991460340518962/image.png)
 [QB-Core](https://github.com/qbcore-framework)
+![screenshot](https://cdn.discordapp.com/attachments/1071872069115072604/1117991460340518962/image.png)
 
 # License
 
@@ -25,16 +25,16 @@ Turkish localized qb-phone. In addition frame changed to iPhone.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 
-## Dependencies
+## Gereksinimler
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [qb-policejob](https://github.com/qbcore-framework/qb-policejob) - MEOS, handcuff check etc. 
-- [qb-crypto](https://github.com/qbcore-framework/qb-crypto) - Crypto currency trading 
-- [qb-lapraces](https://github.com/qbcore-framework/qb-lapraces) - Creating routes and racing 
-- [qb-houses](https://github.com/qbcore-framework/qb-houses) - House and Key Management App
-- [qb-garages](https://github.com/qbcore-framework/qb-garages) - For Garage App
-- [qb-banking](https://github.com/qbcore-framework/qb-banking) - For Banking App
-- [screenshot-basic](https://github.com/citizenfx/screenshot-basic) - For Taking Photos
-- A Webhook for hosting photos (Discord or Imgur can provide this)
+- [qb-policejob](https://github.com/qbcore-framework/qb-policejob) - MEOS, kelepçe kontrolü vb..
+- [qb-crypto](https://github.com/qbcore-framework/qb-crypto) - kripto para ticareti
+- [qb-lapraces](https://github.com/qbcore-framework/qb-lapraces) - Rota oluşturma ve yarış
+- [qb-houses](https://github.com/qbcore-framework/qb-houses) - Ev ve Anahtar Yönetim Uygulaması
+- [qb-garages](https://github.com/qbcore-framework/qb-garages) - Garaj Uygulaması için
+- [qb-banking](https://github.com/qbcore-framework/qb-banking) - Bankacılık Uygulaması için
+- [screenshot-basic](https://github.com/citizenfx/screenshot-basic) - Fotoğraf Çekmek İçin
+- Telefonda fotoğrafları çekebilmek için bir WebHook'a ihtiyacınız var.(Discord veya Imgur bunu sağlayabilir)
 
 
 ## Screenshots
@@ -55,20 +55,20 @@ Turkish localized qb-phone. In addition frame changed to iPhone.
 ![Whatsapp](https://cdn.discordapp.com/attachments/921675245360922625/921675459517906944/whatsapp.jpg)
 ![Phone](https://cdn.discordapp.com/attachments/921675245360922625/921675440677064745/phone.jpg)
 
-## Features
-- Garages app to see your vehicle details
-- Mails to inform the player
-- Banking app to see balance and transfer money
-- Racing app to create races
-- App Store to download apps
-- MEOS app for polices to search
-- Houses app for house details and management
+## Özellikler
+- Araç ayrıntılarını görmek için garaj uygulaması
+- Oyuncuyu bilgilendirmek için posta uygulaması
+- Bakiye görüntüleme ve para transferi için bankacılık uygulaması
+- Yarışlar oluşturmak için yarış uygulaması
+- Uygulama Mağazası'ndan uygulama indirme
+- Polisler için MEOS uygulaması
+- Ev ayrıntıları ve yönetimi için evler uygulaması
 
 ## Installation
-### Manual
-- Download the script and put it in the `[qb]` directory.
-- Import `qb-phone.sql` in your database
-- Add the following code to your server.cfg/resouces.cfg
+### Manuel
+Komut dosyasını indirin ve `[qb]` dizinine yerleştirin.
+Veritabanında `qb-phone.sql` dosyasını içe aktarın.
+server.cfg/resouces.cfg dosyasına aşağıdaki kodu ekleyin:
 ```
 ensure qb-core
 ensure screenshot-basic
@@ -81,39 +81,40 @@ ensure qb-garages
 ensure qb-banking
 ```
 
-## Configuration
+## Yapılandırma
 ```
 
 Config = Config or {}
 
-Config.RepeatTimeout = 2000 -- Timeout for unanswered call notification
-Config.CallRepeats = 10 -- Repeats for unanswered call notification
-Config.OpenPhone = 244 -- Key to open phone display
+Config.RepeatTimeout = 2000 -- Yanıtlanmamış arama bildirimi için zaman aşımı
+Config.CallRepeats = 10 -- Yanıtlanmamış arama bildirimi tekrarları
+Config.OpenPhone = 244 -- Telefona erişmek için tuş kodu
 Config.PhoneApplications = {
-    ["phone"] = { -- Needs to be unique
-        app = "phone", -- App route
-        color = "#04b543", -- App icon color
-        icon = "fa fa-phone-alt", -- App icon
-        tooltipText = "Phone", -- App name
+    ["phone"] = { -- Benzersiz olmalı
+        app = "phone", -- Uygulama rotası
+        color = "#04b543", -- Uygulama simgesi rengi
+        icon = "fa fa-phone-alt", -- Uygulama simgesi
+        tooltipText = "Telefon", -- Uygulama adı
         tooltipPos = "top",
-        job = false, -- Job requirement
-        blockedjobs = {}, -- Jobs cannot use this app
-        slot = 1, -- App position
-        Alerts = 0, -- Alert count
+        job = false, -- İş gereksinimi
+        blockedjobs = {}, -- Bu uygulamayı kullanamayan işler
+        slot = 1, -- Uygulama konumu
+        Alerts = 0, -- Bildirim sayısı
     },
 }
 ```
-## Setup Webhook in `server/main.lua` for photos
-Set the following variable to your webhook (For example, a Discord channel or Imgur webhook)
-### To use Discord:
-- Right click on a channel dedicated for photos
-- Click Edit Channel
-- Click Integrations
-- Click View Webhooks
-- Click New Webhook
-- Confirm channel
-- Click Copy Webhook URL
-- Paste into `WebHook` in `server/main.lua`
+## Fotoğraflar için server/main.lua dosyasında Webhook ayarlama
+Aşağıdaki değişkeni Webhook'unuza ayarlayın (Örneğin, bir Discord kanalı veya Imgur webhook'u)
+
+# Discord kullanmak için:
+- Fotoğraflar için ayrılmış bir kanala sağ tıklayın
+- Kanalı Düzenle seçeneğini tıklayın
+- Entegrasyonlar seçeneğini tıklayın
+- Webhookları Görüntüle seçeneğini tıklayın
+- Yeni Webhook seçeneğini tıklayın
+- Kanalı onaylayın
+- Webhook URL'sini kopyalayın
+- `server/main.lua` dosyasındaki `WebHook` değişkenine yapıştırın
 ```
 local WebHook = ""
 ```
