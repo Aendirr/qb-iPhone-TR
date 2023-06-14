@@ -1,6 +1,11 @@
 # qb-phone
 Advanced Phone for QB-Core Framework :iphone:
 
+#qb-iPhone-TR
+Türkçeleştirilmiş qb-phone. Ekstra olarak iPhone görüntüsü verildi.
+Turkish localized qb-phone. In addition frame changed to iPhone.
+[QB-Core](https://github.com/qbcore-framework)
+
 # License
 
     QBCore Framework
