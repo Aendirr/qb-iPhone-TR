@@ -38,22 +38,21 @@ Advanced Phone for QB-Core Framework :iphone:
 
 
 ## Screenshots
-![Home](https://cdn.discordapp.com/attachments/921675245360922625/921675439783673897/home.jpg)
-![Bank](https://cdn.discordapp.com/attachments/921675245360922625/921675441142644756/bank.jpg)
-![Advert](https://cdn.discordapp.com/attachments/921675245360922625/921675440878415872/advert.jpg)
-![Mail](https://cdn.discordapp.com/attachments/921675245360922625/921675440278614068/mail.jpg)
-![Garage](https://cdn.discordapp.com/attachments/921675245360922625/921675439590760528/garage.jpg)
-![Garage Detail](https://cdn.discordapp.com/attachments/921675245360922625/921675441591422986/garage_in.jpg)
-![services](https://cdn.discordapp.com/attachments/921675245360922625/921675458670641152/services.jpg)
-![Houses](https://cdn.discordapp.com/attachments/921675245360922625/921675440005988362/house.jpg)
-![Racing](https://cdn.discordapp.com/attachments/921675245360922625/921675458423173140/race.jpg)
-![Crypto](https://cdn.discordapp.com/attachments/921675245360922625/921675457718517820/qbit.jpg)
-![Gallery](https://cdn.discordapp.com/attachments/921675245360922625/921675441381736448/gallery.jpg)
-![MEOS](https://cdn.discordapp.com/attachments/921675245360922625/921675440488341534/meos.jpg)
-![Twitter](https://cdn.discordapp.com/attachments/921675245360922625/921675459270438922/twitter.jpg)
-![Settings](https://cdn.discordapp.com/attachments/921675245360922625/921675458905513984/setting.jpg)
-![Whatsapp](https://cdn.discordapp.com/attachments/921675245360922625/921675459517906944/whatsapp.jpg)
-![Phone](https://cdn.discordapp.com/attachments/921675245360922625/921675440677064745/phone.jpg)
+![Home](https://cdn.discordapp.com/attachments/1015405908223860836/1118692592599703642/image.png)
+![Bank](https://cdn.discordapp.com/attachments/1015405908223860836/1118692973790625952/image.png)
+![Advert](https://media.discordapp.net/attachments/1015405908223860836/1118693103864381510/image.png?width=230&height=468)
+![Mail](https://cdn.discordapp.com/attachments/1015405908223860836/1118693230163279912/image.png)
+![Garage](https://cdn.discordapp.com/attachments/1015405908223860836/1118693339315851314/image.png)
+![Garage Detail](https://cdn.discordapp.com/attachments/1015405908223860836/1118693498602922125/image.png)
+![services](https://cdn.discordapp.com/attachments/1015405908223860836/1118693612079808522/image.png)
+![Houses](https://cdn.discordapp.com/attachments/1015405908223860836/1118693754388353124/image.png)
+![Racing](https://cdn.discordapp.com/attachments/1015405908223860836/1118693849204801666/image.png)
+![Crypto](https://cdn.discordapp.com/attachments/1015405908223860836/1118694029148819588/image.png)
+![Gallery](https://cdn.discordapp.com/attachments/1015405908223860836/1118694118877573140/image.png)
+![Twitter](https://cdn.discordapp.com/attachments/1015405908223860836/1118694277334179910/image.png)
+![Settings](https://cdn.discordapp.com/attachments/1015405908223860836/1118694445873889330/image.png)
+![Whatsapp](https://cdn.discordapp.com/attachments/1015405908223860836/1118694602258530364/image.png)
+![Phone](https://cdn.discordapp.com/attachments/1015405908223860836/1118694686903783444/image.png)
 
 ## Özellikler
 - Araç ayrıntılarını görmek için garaj uygulaması
