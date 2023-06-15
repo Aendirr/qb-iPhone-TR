@@ -40,7 +40,7 @@ Advanced Phone for QB-Core Framework :iphone:
 ## Screenshots
 ![Home](https://cdn.discordapp.com/attachments/1015405908223860836/1118692592599703642/image.png)
 ![Bank](https://cdn.discordapp.com/attachments/1015405908223860836/1118692973790625952/image.png)
-![Advert](https://media.discordapp.net/attachments/1015405908223860836/1118693103864381510/image.png?width=230&height=468)
+![Advert](https://media.discordapp.net/attachments/1015405908223860836/1118693103864381510/image.png)
 ![Mail](https://cdn.discordapp.com/attachments/1015405908223860836/1118693230163279912/image.png)
 ![Garage](https://cdn.discordapp.com/attachments/1015405908223860836/1118693339315851314/image.png)
 ![Garage Detail](https://cdn.discordapp.com/attachments/1015405908223860836/1118693498602922125/image.png)
